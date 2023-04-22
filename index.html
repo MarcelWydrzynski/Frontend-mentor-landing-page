@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://kit.fontawesome.com/6c5198f753.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital@1&family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+<title>Frontend Mentor | Bookmark landing page</title>
+<link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+  <header class="header wrapper">
+    <img src="/images/logo-bookmark.svg" alt="bookmark logo" class="header-logo">    
+    <nav> 
+      <ul class="header-nav">
+        <li>FEATURES</li>
+        <li>PRICING</li>
+        <li>CONTACT</li>
+        <li><button>Login</button></li>
+      </ul>
+    </nav>
+    <img src="./images/icon-hamburger.svg" alt="hamburger icon open" class="hamburger-icon-open">
+   
+   
+    <nav class="hamburger-menu">
+      <div class="hamburger-menu-header">
+        <h2>BOOKMARK</h2>   
+        <img src="./images/icon-close.svg" alt="X icon" class="hamburger-icon-close">
+      </div>
+
+      <ul class="hamburger-menu-list">
+          <li>FEATURES</li>
+          <li>PRICING</li>
+          <li>CONTACT</li>
+          <li>LOGIN</li>
+        </ul>
+
+      <div class="hamburger-socials">
+        <img src="./images/icon-facebook.svg" alt="">
+        <img src="./images/icon-twitter.svg" alt="">
+      </div>
+      </nav>
+  </header>
+  <section class="hero-section wrapper">
+           <div class="hero-text">
+            <h1>A Simple Bookmark <br>Manager</h1>
+            <p>A clean and simple interface to organize your favourite websites. 
+              Open a new browser tab and see your sites load instantly. Try it for free.</p>
+            <div class="hero-text-btns">
+              <button>Get it on Chrome</button>
+              <button>Get it on Firefox</button>
+            </div>
+           </div>
+           <div class="hero-image">
+            <div class="hero-img-div"><img src="./images/hero-img.png" alt=""></div>
+            
+           </div>
+  </section>
+
+  <section class="features wrapper">
+<div class="features-description">
+  <h2>Features</h2>
+  <p>Our aim is to make it quick and easy for you to access your 
+    favrouite websites. Your bookmarks sync between your devices so 
+    you can access them on the go.</p>
+</div>
+
+<div class="features-advantages">
+  
+    <button class="features-btn-1 feature-btn button-active">Simple Bookmarking</button>
+    <button class="features-btn-2 feature-btn">Speedy Searching</button>
+    <button class="features-btn-3 feature-btn">Easy Sharing</button>
+  
+</div>
+
+<div class="features-pictures wrapper">
+  <img id = 'features-pictures-image' class="features-pictures-image" src="./images//illustration-features-tab-1.svg" alt="">
+
+<div class="features-pictures-text">
+  <h2 class="features-pictures-text-title">Bookmark in one click</h2>
+  <p class="features-pictures-text-description">Organize your bookmarks however you like. 
+    Our simple drag-and-drop interface gives you complete 
+    control over how you manage yopur favourite sites</p>
+  <div class="features-pictures-text-btn">
+    <button>More Info</button>
+  </div>
+ </div>
+  </section>
+
+  <section class="extensions wrapper">
+    <div class="extensions-text">
+      <h2>Download the Extension</h2>
+      <p>We've got more browsers in the pipeline. Please do let us know if you've got 
+        a favrouite you'd like us tu prioritze</p>
+    </div class="extensions-text">
+    <div class = "extensions-cards-container">
+      <div class="card-chrome card">
+        <img class="browser-logo"src="./images/logo-chrome.svg" alt="Logo Chrome browser">
+        <h3>Add to chrome</h3>
+        <p>Minimum version 62</p>
+        <img class = 'card-dots' src="./images/bg-dots.svg" alt="horizontal line of small grey dots">
+        <button>
+          Add & install extension
+        </button>
+      </div>
+      <div class="card-firefox card">
+        <img class="browser-logo" src="./images/logo-firefox.svg" alt="Logo Chrome browser">
+        <h3>Add to chrome</h3>
+        <p>Minimum version 55</p>
+        <img class = 'card-dots' src="./images/bg-dots.svg" alt="horizontal line of small grey dots">
+        <button>
+          Add & install extension
+        </button>
+      </div>
+      <div class="card-opera card">
+        <img class="browser-logo" src="./images/logo-opera.svg" alt="Logo Chrome browser">
+        <h3>Add to chrome</h3>
+        <p>Minimum version 46</p>
+        <img class = 'card-dots' src="./images/bg-dots.svg" alt="horizontal line of small grey dots">
+        <button>
+          Add & install extension
+        </button>
+      </div>
+    </div class = "extensions-cards-container">
+  </section>
+
+  <section class="questions wrapper">
+    <div class="questions-text"><h2>Frequently Asked Questions</h2>
+      <p>Here are some of our FAQs. If you have any other questions you'd
+         like answered please feel free to email us. please </p>
+    </div>
+    <div class="questions-answers-container">
+      <div class="question">
+        <div class="question-question">
+           <p>What is a bookmark?</p>
+           <img class='question-icon' src="./images/icon-arrow.svg" alt="">
+        </div>
+        <div class="question-answer">
+           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis laboriosam vel ullam cum voluptas, commodi debitis accusantium 
+            reiciendis adipisci ab. Aspernatur sequi itaque alias omnis eveniet, fuga inventore molestiae laboriosam.</p>
+        </div>
+     </div>
+     <div class="question">
+        <div class="question-question">
+           <p>How can I request a new browser?</p>
+           <img class='question-icon' src="./images/icon-arrow.svg" alt="">
+        </div>
+        <div class="question-answer">
+           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis laboriosam vel ullam cum voluptas, commodi debitis accusantium 
+            reiciendis adipisci ab. Aspernatur sequi itaque alias omnis eveniet, fuga inventore molestiae laboriosam.</p>
+        </div>
+     </div>
+     <div class="question">
+        <div class="question-question">
+           <p>Is there a mobile app?</p>
+           <img class='question-icon' src="./images/icon-arrow.svg" alt="">
+        </div>
+        <div class="question-answer">
+           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis laboriosam vel ullam cum voluptas, commodi debitis accusantium 
+            reiciendis adipisci ab. Aspernatur sequi itaque alias omnis eveniet, fuga inventore molestiae laboriosam.</p>
+        </div>
+     </div>
+     <div class="question">
+      <div class="question-question">
+         <p>What about other chromium browsers?</p>
+         <img class='question-icon' src="./images/icon-arrow.svg" alt="">
+      </div>
+      <div class="question-answer">
+         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis laboriosam vel ullam cum voluptas, commodi debitis accusantium 
+          reiciendis adipisci ab. Aspernatur sequi itaque alias omnis eveniet, fuga inventore molestiae laboriosam.</p>
+      </div>
+          </div>
+  
+      </div>
+    </div>
+    <button>More info</button>
+  </section>
+
+  <section class="contact wrapper">
+    <h4>35.000+ ALREADY JOINED</h4>
+    <h2>Stay up-to-date with what we're doing</h2>
+    <div class="contact-input-container">
+    <div class="contact-input">
+      <input class = 'email-input'type="email" placeholder="Enter your email address">
+      <span class="error-msg">Whoops, make sure it's an email</span>
+    </div>
+    <button class="contact-btn">Contact Us</button>
+  </div>
+  </section>
+
+  <footer class="wrapper">
+      <ul class="footer-nav">
+        <li>BOOKMARK</li>
+        <li>FEATURES</li>
+        <li>PRICING</li>
+        <li>CONTACT</li>
+      </ul>
+      <div class="footer-socials">
+        <img src="./images/icon-facebook.svg" alt="facebook logo">
+        <img src="./images/icon-twitter.svg" alt="twitter logo">
+      </div>
+      </nav>
+    
+  </footer>
+  
+
+
+  
+  <script src="/js/script.js"></script>
+</body>
+</html>
+
+

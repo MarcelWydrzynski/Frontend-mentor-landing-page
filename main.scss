@@ -1,0 +1,21 @@
+//Primary colors
+$soft-blue: hsl(231, 69%, 60%);
+$soft-red:  hsl(0, 94%, 66%);
+
+//Neutral Colors
+$Grayish0-Blue: hsl(229, 8%, 60%);
+$Very-Dark-Blue: hsl(229, 31%, 21%,);
+
+@import 'scss components/reset';
+
+@import 'scss components/header';
+@import 'scss components/hero-section';
+@import 'scss components/features';
+@import 'scss components/extensions';
+@import 'scss components/questions';
+@import 'scss components/contact';
+@import 'scss components/footer';
+
+
+@import 'scss components/animations'
+

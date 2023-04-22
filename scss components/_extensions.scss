@@ -1,0 +1,99 @@
+.extensions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    font-family: 'Rubik', sans-serif;
+    gap: 50px;
+}
+
+.extensions-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+
+    h3 {
+        font-weight: 500;
+    }
+
+    p {
+        color: $Grayish0-Blue;
+    }
+}
+
+.extensions-cards-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 450px;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 40px 0;
+    border-radius: 10px;
+    box-shadow: 1px 14px 24px -16px rgba(0, 0, 0, 1);
+    
+    .browser-logo {
+        width: 40%;
+    }
+
+    h3 {
+        font-weight: 500;
+        font-size: 23px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .card-dots {
+        margin: 30px 0 15px 0;
+    }
+
+    button {
+        padding: 10px 40px;
+        color: white;
+        background-color: $soft-blue;
+        border-color: $soft-blue;
+        border-radius: 5px;
+        
+
+        &:hover {
+            background-color: white;
+            color: $soft-blue;
+            border: 2px solid $soft-blue;
+            cursor: pointer;
+        }
+    }
+}
+.card-chrome {
+    align-self: flex-start;
+}
+
+.card-firefox {
+    align-self: center;
+}
+
+.card-opera {
+    align-self: end;
+}
+
+@media all and (max-width: 1222px){
+
+    .extensions-text {
+        width: 100%;
+    }
+    
+    .extensions-cards-container {
+        height: auto;
+    }
+ 
+  }
